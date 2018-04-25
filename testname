@@ -1,0 +1,7 @@
+If neither base case holds, a recursive lookup is 
+done on the appropriate subtree. Since all values less than 
+the root's value are in the left subtree and all values greater 
+than the root's value are in the right subtree, there is no point 
+in looking in both subtrees: if the value we're looking for is less 
+than the value in the root, it can only be in the left subtree 
+(and if it is greater than the value in the root, it can only be in the right subtree).
